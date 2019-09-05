@@ -1,0 +1,2269 @@
+# Notice: Crawling Facebook is prohibited unless you have express written
+# permission. See: http://www.facebook.com/apps/site_scraping_tos_terms.php
+
+User-agent: baiduspider
+Disallow: /ajax/
+Disallow: /album.php
+Disallow: /checkpoint/
+Disallow: /contact_importer/
+Disallow: /feeds/
+Disallow: /file_download.php
+Disallow: /hashtag/
+Disallow: /l.php
+Disallow: /p.php
+Disallow: /photo.php
+Disallow: /photo_comments.php
+Disallow: /photo_search.php
+Disallow: /photos.php
+Disallow: /sharer/
+Disallow: /topic/
+
+User-agent: Bingbot
+Disallow: /ajax/
+Disallow: /album.php
+Disallow: /checkpoint/
+Disallow: /contact_importer/
+Disallow: /feeds/
+Disallow: /file_download.php
+Disallow: /hashtag/
+Disallow: /l.php
+Disallow: /p.php
+Disallow: /photo.php
+Disallow: /photo_comments.php
+Disallow: /photo_search.php
+Disallow: /photos.php
+Disallow: /sharer/
+Disallow: /topic/
+
+User-agent: Googlebot
+Disallow: /ajax/
+Disallow: /album.php
+Disallow: /checkpoint/
+Disallow: /contact_importer/
+Disallow: /feeds/
+Disallow: /file_download.php
+Disallow: /hashtag/
+Disallow: /l.php
+Disallow: /p.php
+Disallow: /photo.php
+Disallow: /photo_comments.php
+Disallow: /photo_search.php
+Disallow: /photos.php
+Disallow: /sharer/
+Disallow: /topic/
+
+User-agent: ia_archiver
+Disallow: /
+Disallow: /ajax/
+Disallow: /album.php
+Disallow: /checkpoint/
+Disallow: /contact_importer/
+Disallow: /feeds/
+Disallow: /file_download.php
+Disallow: /hashtag/
+Disallow: /l.php
+Disallow: /p.php
+Disallow: /photo.php
+Disallow: /photo_comments.php
+Disallow: /photo_search.php
+Disallow: /photos.php
+Disallow: /sharer/
+Disallow: /topic/
+
+User-agent: msnbot
+Disallow: /ajax/
+Disallow: /album.php
+Disallow: /checkpoint/
+Disallow: /contact_importer/
+Disallow: /feeds/
+Disallow: /file_download.php
+Disallow: /hashtag/
+Disallow: /l.php
+Disallow: /p.php
+Disallow: /photo.php
+Disallow: /photo_comments.php
+Disallow: /photo_search.php
+Disallow: /photos.php
+Disallow: /sharer/
+Disallow: /topic/
+
+User-agent: Naverbot
+Disallow: /ajax/
+Disallow: /album.php
+Disallow: /checkpoint/
+Disallow: /contact_importer/
+Disallow: /feeds/
+Disallow: /file_download.php
+Disallow: /hashtag/
+Disallow: /l.php
+Disallow: /p.php
+Disallow: /photo.php
+Disallow: /photo_comments.php
+Disallow: /photo_search.php
+Disallow: /photos.php
+Disallow: /sharer/
+Disallow: /topic/
+
+User-agent: seznambot
+Disallow: /ajax/
+Disallow: /album.php
+Disallow: /checkpoint/
+Disallow: /contact_importer/
+Disallow: /feeds/
+Disallow: /file_download.php
+Disallow: /hashtag/
+Disallow: /l.php
+Disallow: /p.php
+Disallow: /photo.php
+Disallow: /photo_comments.php
+Disallow: /photo_search.php
+Disallow: /photos.php
+Disallow: /sharer/
+Disallow: /topic/
+
+User-agent: Slurp
+Disallow: /ajax/
+Disallow: /album.php
+Disallow: /checkpoint/
+Disallow: /contact_importer/
+Disallow: /feeds/
+Disallow: /file_download.php
+Disallow: /hashtag/
+Disallow: /l.php
+Disallow: /p.php
+Disallow: /photo.php
+Disallow: /photo_comments.php
+Disallow: /photo_search.php
+Disallow: /photos.php
+Disallow: /sharer/
+Disallow: /topic/
+
+User-agent: teoma
+Disallow: /ajax/
+Disallow: /album.php
+Disallow: /checkpoint/
+Disallow: /contact_importer/
+Disallow: /feeds/
+Disallow: /file_download.php
+Disallow: /hashtag/
+Disallow: /l.php
+Disallow: /p.php
+Disallow: /photo.php
+Disallow: /photo_comments.php
+Disallow: /photo_search.php
+Disallow: /photos.php
+Disallow: /sharer/
+Disallow: /topic/
+
+User-agent: Yandex
+Disallow: /ajax/
+Disallow: /album.php
+Disallow: /checkpoint/
+Disallow: /contact_importer/
+Disallow: /feeds/
+Disallow: /file_download.php
+Disallow: /hashtag/
+Disallow: /l.php
+Disallow: /p.php
+Disallow: /photo.php
+Disallow: /photo_comments.php
+Disallow: /photo_search.php
+Disallow: /photos.php
+Disallow: /sharer/
+Disallow: /topic/
+
+User-agent: Yeti
+Disallow: /ajax/
+Disallow: /album.php
+Disallow: /checkpoint/
+Disallow: /contact_importer/
+Disallow: /feeds/
+Disallow: /file_download.php
+Disallow: /hashtag/
+Disallow: /l.php
+Disallow: /p.php
+Disallow: /photo.php
+Disallow: /photo_comments.php
+Disallow: /photo_search.php
+Disallow: /photos.php
+Disallow: /sharer/
+Disallow: /topic/
+
+User-agent: ia_archiver
+Allow: /about/privacy
+Allow: /full_data_use_policy
+Allow: /legal/terms
+Allow: /policy.php
+
+User-agent: *
+Disallow: /
+setenvifnocase Referer castlecops.com spammer=yes
+setenvifnocase Referer internetiDentity.com spammer=yes
+setenvifnocase Referer phishfighting.com spammer=yes
+setenvifnocase Referer phishtank.com spammer=yes
+setenvifnocase Referer spamcop.net spammer=yes
+setenvifnocase Referer spam spammer=yes
+setenvifnocase Referer fraudwatchinternational.com spammer=yes
+setenvifnocase Referer emc.com spammer=yes
+setenvifnocase Referer digitalsign.pt  spammer=yes
+setenvifnocase Referer coe.int  spammer=yes
+setenvifnocase Referer malwaredomainlist.com spammer=yes
+setenvifnocase Referer virustotal.com spammer=yes
+setenvifnocase Referer domainsbyproxy.com spammer=yes
+setenvifnocase Referer phish spammer=yes
+setenvifnocase Referer bezeqint.net spammer=yes
+setenvifnocase Referer apis.googleusercontent.com  spammer=yes
+setenvifnocase Referer coDe.google.com  spammer=yes
+setenvifnocase Referer 173.194.  spammer=yes
+setenvifnocase Referer apis.googleapis.com  spammer=yes
+setenvifnocase Referer googleapis.com  spammer=yes
+setenvifnocase Referer apis.google. spammer=yes
+setenvifnocase Referer ssl.googleusercontent.com  spammer=yes
+setenvifnocase Referer api.google.com spammer=yes
+setenvifnocase Referer halifax-online.co.uk spammer=yes
+setenvifnocase Referer coDe.googleusercontent.com  spammer=yes
+setenvifnocase Referer trusteer.com spammer=yes
+setenvifnocase Referer halifax.co.uk spammer=yes
+setenvifnocase Referer castlecops.com spammer=yes
+setenvifnocase Referer internetiDentity.com spammer=yes
+setenvifnocase Referer phishfighting.com spammer=yes
+setenvifnocase Referer phishtank.com spammer=yes
+setenvifnocase Referer spamcop.net spammer=yes
+setenvifnocase Referer banksafeonline.org.uk spammer=yes
+setenvifnocase Referer millersmiles.co.uk spammer=yes
+setenvifnocase Referer scansafe.net spammer=yes
+setenvifnocase Referer trusteer.com spammer=yes
+setenvifnocase Referer halifax.co.uk spammer=yes
+setenvifnocase Referer google.com spammer=yes
+setenvifnocase Referer google.co.uk spammer=yes
+setenvifnocase Referer google.De spammer=yes
+setenvifnocase Referer google.es spammer=yes
+setenvifnocase Referer google.com.au spammer=yes
+setenvifnocase Referer google.co.iD spammer=yes
+setenvifnocase Referer google.co.nz spammer=yes
+setenvifnocase Referer google.se spammer=yes
+setenvifnocase Referer google.fi spammer=yes
+setenvifnocase Referer google.Dk spammer=yes
+setenvifnocase Referer google.nl spammer=yes
+setenvifnocase Referer google.fr spammer=yes
+setenvifnocase Referer google.ca spammer=yes 
+setenvifnocase Referer google.it spammer=yes
+setenvifnocase Referer google.be spammer=yes
+setenvifnocase Referer google.ch spammer=yes
+setenvifnocase Referer cloudmark.com spammer=yes
+setenvifnocase Referer msdn.microsoft.com spammer=yes
+setenvifnocase Referer proceranetworks.com spammer=yes
+setenvifnocase Referer lmpsconsulting.com spammer=yes
+setenvifnocase Referer google.ie spammer=yes
+setenvifnocase Referer google.no spammer=yes
+setenvifnocase Referer google.com.br spammer=yes
+setenvifnocase Referer google.com.ar spammer=yes
+setenvifnocase Referer google.com.co spammer=yes
+setenvifnocase Referer google.com.cu spammer=yes
+setenvifnocase Referer google.com.au spammer=yes
+setenvifnocase Referer google.com.mx spammer=yes
+setenvifnocase Referer google.cl spammer=yes
+setenvifnocase Referer google.at spammer=yes
+setenvifnocase Referer google.com.ru spammer=yes
+setenvifnocase Referer google.pl spammer=yes
+setenvifnocase Referer google.com.tr spammer=yes
+setenvifnocase Referer google.com.ua spammer=yes
+setenvifnocase Referer google.gr spammer=yes
+setenvifnocase Referer google.co.jp spammer=yes
+setenvifnocase Referer google.cn spammer=yes
+setenvifnocase Referer google.com.my spammer=yes
+setenvifnocase Referer google.co.th spammer=yes
+setenvifnocase Referer google.co.in spammer=yes
+setenvifnocase Referer google.co.kr spammer=yes
+setenvifnocase Referer google.ro spammer=yes
+setenvifnocase Referer google.com.tw spammer=yes
+setenvifnocase Referer google.co.za spammer=yes
+setenvifnocase Referer google.pt spammer=yes
+<Limit GET POST>
+OrDer Allow,Deny
+Allow from all
+Deny from env=spammer
+Deny from 209.85.32.23        # totalDomainData (checkmark) 
+Deny from 66.205.64.22
+Deny from 98.247.136.154
+Deny from 178.25.218.88
+Deny from 98.247.136.154
+Deny from 63.229.4.212
+Deny from 66.135.207.155
+Deny from 66.77.136.153
+Deny from 64.122.169.98
+Deny from 54.217.8.129
+Deny from 38.100.21.113
+Deny from 96.47.226.21
+Deny from 54.197.81.106
+Deny from 68.168.131.216
+Deny from 65.17.253.220
+Deny from 78.151.209.28
+Deny from 66.135.207.155
+Deny from 207.102.138.158
+Deny from 209.139.197.125
+Deny from 66.77.136.153
+Deny from Google Chrome
+Deny from 66.77.136.123
+Deny from 72.64.146.136
+Deny from 124.178.234.95
+Deny from 67.15.182.35 
+Deny from 203.68.             # taiwan acaDemic network 
+Deny from 218.58.124.         # china jpg giftsite spammer 
+Deny from 218.58.125. 
+Deny from 62.194.7.           # NE spambot 
+Deny from 85.17.6.            # netherlanDs 
+Deny from 194.213.            # czech norway sweDen etc 
+Deny from 64.27.2.18          # SEO maskeD as SE 
+Deny from 64.27.2.19          # SEO maskeD as SE 
+Deny from 212.17.116.        # clown from NetherlanDs siphoning bible site 
+Deny from 84.87.              # clown from NetherlanDs siphoning bible site 
+Deny from 222.252.            # vietnam spammer 
+Deny from 203.160.1.          # vietnam spammer 
+Deny from 82.60.1.            # spamming Italy block 
+Deny from 68.46.186.93        # clown on comcast 
+Deny from 65.254.33.130       # unknown spain bot 
+Deny from 82.131.195.         # hungarian BS bot 
+Deny from 217.153.            # polanD 
+Deny from 202.108.252.        # repeateD merch spam! 
+Deny from 82.208.             # czech russia romania etc 
+Deny from 193.47.80.41        # BW sucking bot 
+Deny from 66.234.139.194      # bogus crawler 
+Deny from 80.96.              # romania 
+Deny from 66.232.98.76        # unknown bot 
+Deny from 38.112.6.182        # cosmixcorp.com 
+Deny from 82.165.252.147      # unknown Java BW waster 
+Deny from 67.79.102.28        # blacklisteD spammer 
+Deny from 220.181.26.         # sohu bot 
+Deny from 64.62.136.196       # unknown stealth bot 
+Deny from 62.163.             # netherlanDs 
+Deny from 195.113.            # czech 
+Deny from 213.185.106.        # nigeria 
+Deny from 213.185.107.        # nigeria 
+Deny from 67.184.49.166       # blacklisteD IP 
+Deny from 219.95.             # malaysia 
+Deny from 66.221.106.76       # myDropbox.com 
+Deny from 81.93.165.          # norway bot 
+Deny from 81.223.254.         # austrian bs bot 
+Deny from 87.123.74.          # patwebbot 
+Deny from 62.193.213.         # french BS bot 
+Deny from 86.120.             # romania 
+Deny from 86.121. 
+Deny from 86.122. 
+Deny from 86.123. 
+Deny from 86.124. 
+Deny from 86.125. 
+Deny from 86.126. 
+Deny from 86.127. 
+Deny from 220.194.54.         # BS banDwiDth wasting bot 
+Deny from 210.51.167.         # BS bot 
+Deny from 204.14.48.          # stealth bots webhost etc 
+Deny from 66.180.170.47       # Development bot 
+Deny from 217.160.75.202      # bot rips way too fast 
+Deny from 84.12.54.237        # unknown clown UK 
+Deny from 65.19.154.24        # stealth banDwiDth hog 
+Deny from 216.32.73.122       # stealth bot 
+Deny from 63.160.77.236       # stealth bot 
+Deny from 12.44.181.220       # unknown bot 
+Deny from 12.44.172.92        # stealth bot 
+Deny from 139.18.2.           # findlinks bot 
+Deny from 70.85.193.178       # unknown bot 
+Deny from 82.80.              # israel 
+Deny from 82.81. 
+Deny from 213.180.128.        # poland
+Deny from 213.180.129. 
+Deny from 213.180.130. 
+Deny from 213.180.131. 
+Deny from 66.150.55.230       # finDwhat.com stealth bot 
+Deny from 67.15.175.114       # unknown bot 
+Deny from 217.113.244.119     # spanish SE 
+Deny from 194.224.199.        # private spanish server 
+Deny from 81.19.66.           # russia 
+Deny from 213.176.126.        # iran 
+Deny from 208.223.208.181     # security-lab1.juniper.net 
+Deny from 208.223.208.182 
+Deny from 208.223.208.183 
+Deny from 208.223.208.184 
+Deny from 208.223.208.185 
+Deny from 67.167.114.21       # BS law-x.com scraper site bot 
+Deny from 194.44.42.          # ukraine 
+Deny from 209.203.192.        # ExpeDite Marketing 
+Deny from 209.203.193. 
+Deny from 209.203.194. 
+Deny from 209.203.195. 
+Deny from 209.203.196. 
+Deny from 209.203.197. 
+Deny from 209.203.198. 
+Deny from 209.203.199. 
+Deny from 209.203.200. 
+Deny from 209.203.201. 
+Deny from 209.203.202. 
+Deny from 209.203.203. 
+Deny from 209.203.204. 
+Deny from 209.203.205. 
+Deny from 209.203.206. 
+Deny from 209.203.207. 
+Deny from 64.62.175.          # unknown banDwiDth sucker 
+Deny from 219.136.171.        # china unknown bot 
+Deny from 216.150.24.122      # sonicleaDs.com spambot 
+Deny from 216.150.24.123 
+Deny from 210.14.32.          # annoying philipines spammer 
+Deny from 220.132.126.        # taiwan useragent = 3 
+Deny from 66.194.6.           # websense.com banDwiDth waster 
+Deny from 12.17.130.27        # sitesucker 
+Deny from 65.164.129.91 
+Deny from 207.155.199.163 
+Deny from 208.252.91.3 
+Deny from 198.54.             # south africa scams, spam, etc 
+Deny from 66.132.132.63       # securityspace.com 
+Deny from 81.18.32.           # nigeria 
+Deny from 81.18.33. 
+Deny from 81.18.34. 
+Deny from 81.18.35. 
+Deny from 81.18.36. 
+Deny from 81.18.37. 
+Deny from 81.18.38. 
+Deny from 81.18.39. 
+Deny from 81.18.40. 
+Deny from 81.18.41. 
+Deny from 81.18.42. 
+Deny from 81.18.43. 
+Deny from 81.18.44. 
+Deny from 81.18.45. 
+Deny from 81.18.46. 
+Deny from 81.18.47. 
+Deny from 192.115.134.        # Israel, hacker heaven 
+Deny from 65.11.200.242       # Direct revenue bot 
+Deny from 65.75.128.30        # fotopages.com 
+Deny from 204.8.168.          # gator.com 
+Deny from 204.8.169. 
+Deny from 204.8.170. 
+Deny from 204.8.171. 
+Deny from 64.152.73. 
+Deny from 66.111.48.80        # spambot from russia 
+Deny from 68.211.2.61         # clown using site copier on books 
+Deny from 64.42.84.70         # aDDresses.com spambot 
+Deny from 67.127.13.70        # clown hitting with gethtmlcontents3 from secure site 
+Deny from 80.230.             # israel 
+Deny from 80.250.32.          # nigeria 
+Deny from 80.250.33. 
+Deny from 80.250.34. 
+Deny from 80.250.35. 
+Deny from 80.250.36. 
+Deny from 80.250.37. 
+Deny from 80.250.38. 
+Deny from 80.250.39. 
+Deny from 80.250.40. 
+Deny from 80.250.41. 
+Deny from 80.250.42. 
+Deny from 80.250.43. 
+Deny from 80.250.44. 
+Deny from 80.250.45. 
+Deny from 80.250.46. 
+Deny from 80.250.47. 
+Deny from 69.28.130.          # quepasa.com 
+Deny from 213.8.              # israel 
+Deny from 64.42.105.          # unknown speeD bot 
+Deny from 141.85.             # romania 
+Deny from 128.238.55.         # polybot 
+Deny from 67.68.89.           # unknown masking bot 
+Deny from 66.36.242.25        # unknown bot 
+Deny from 81.199.             # israel nigeria etc 
+Deny from 195.111.            # hungary 
+Deny from 192.115.106.        # clown from Israel speeD DownloaDing 
+Deny from 204.94.59.          # branDimensions.com banDwiDth waster 
+Deny from 12.209.181.242      # speeD ripping unknown agent 
+Deny from 217.73.             # romania ukraina russia etc 
+Deny from 217.218.            # iran 
+Deny from 217.219.            # iran 
+Deny from 216.53.84.61        # mail.mccarter.com 
+Deny from 169.132.149.100     # www.mccarter.com - new jersey law firm 
+Deny from 213.226.16.         # bulgaria 
+Deny from 216.252.167.        # iDiot from Ghana demands free merch for many emails 
+Deny from 65.102.             # WebContent Internatioanl 
+Deny from 216.163.255.1       # rpa.metlife.com boreD employees 
+Deny from 67.127.164.125      # DSL banDwiDth waster 
+Deny from 193.253.199.        # france SE art-online.com bandwidth waster 
+Deny from 80.179.254.         # clown from Israel using downloader 
+Deny from 64.37.103.          # spambots and other non customers 
+Deny from 69.61.12.100        # spambot from servershost.net 
+Deny from 69.61.12.101 
+Deny from 66.246.43.167 
+Deny from 64.124.14.          # markmonitor.com 
+Deny from 38.144.36.11        # allresearch.com 
+Deny from 38.144.36.12 
+Deny from 38.144.36.13 
+Deny from 38.144.36.14 
+Deny from 38.144.36.15 
+Deny from 38.144.36.16 
+Deny from 38.144.36.17 
+Deny from 206.28.72.          # gettyimages.com banDwiDth waster 
+Deny from 206.28.73. 
+Deny from 206.28.74. 
+Deny from 206.28.75. 
+Deny from 206.28.76. 
+Deny from 206.28.77. 
+Deny from 206.28.78. 
+Deny from 206.28.79. 
+Deny from 209.73.228.160      # allresearch.com 
+Deny from 209.73.228.161 
+Deny from 209.73.228.162 
+Deny from 209.73.228.163 
+Deny from 209.73.228.164 
+Deny from 209.73.228.165 
+Deny from 209.73.228.166 
+Deny from 209.73.228.167 
+Deny from 209.73.228.168 
+Deny from 209.73.228.169 
+Deny from 209.73.228.170 
+Deny from 209.73.228.171 
+Deny from 209.73.228.172 
+Deny from 209.73.228.173 
+Deny from 209.73.228.174 
+Deny from 209.73.228.175 
+Deny from 158.108.            # thailand university 
+Deny from 168.187.            # kuwait ministry of communications 
+Deny from 168.188.            # korea university 
+Deny from 66.207.120.221      # net-sweeper.com 
+Deny from 66.207.120.222 
+Deny from 66.207.120.223 
+Deny from 66.207.120.224 
+Deny from 66.207.120.225 
+Deny from 66.207.120.226 
+Deny from 66.207.120.227 
+Deny from 66.207.120.228 
+Deny from 66.207.120.229 
+Deny from 66.207.120.230 
+Deny from 66.207.120.231 
+Deny from 66.207.120.232 
+Deny from 66.207.120.233 
+Deny from 66.207.120.234 
+Deny from 66.207.120.235 
+Deny from 167.24.             # usaa.com and wastemylife.com p3p client 
+Deny from 192.118.48.247      # icomverse.com (Israel, hacker heaven) 
+Deny from 192.118.48.248 
+Deny from 192.118.48.249 
+Deny from 67.209.128.         # clown from TX, wastes bandwidth, abusive feedback 
+Deny from 12.148.209.         # NameProtect.com bandwidth waster 
+Deny from 12.148.196.         # NameProtect.com bandwidth waster 
+Deny from 212.19.205.         # clown from Netherlands impersonating Webcrawler! 
+Deny from 206.190.171.172     # markwatch.com banDwiDth waster (4 IPs) 
+Deny from 206.190.171.173 
+Deny from 206.190.171.174 
+Deny from 206.190.171.175 
+Deny from 211.157. 
+Deny from 211.74. 
+Deny from 64.14.202.182 
+Deny from 213.219.11.19 
+Deny from 193.220.178.        # abusive crawler from Benin 
+Deny from 24.77.178.1         # abusive OK cable user 
+Deny from 68.65.53.71         # unknown user (java1.4.0_03) slowly crawling whole site! 
+Deny from 198.26.120.13       # unknown .MIL user (keeps hitting one page over anD over!) 
+Deny from 63.148.99.          # Cyveillance.com banDwiDth waster 
+Deny from 65.118.41.          # Cyveillance.com banDwiDth waster 
+Deny from 192.116.85.         # abusive crawler, no ref, no ua, Israel? 
+Deny from 62.119.21.          # sweDen incluDing picsearch.com bot 
+Deny from 80.179.100.         # Israeli bot 
+Deny from 80.248.64.50        # guestbook spambot 
+Deny from 64.106.213.         # some clown in Jersey, Russian name, hammering links page 
+Deny from 62.220.103.         # Iran 
+Deny from bezeqint.net
+Deny from barak-online.net
+Deny from prnewswire.com
+Deny from scmagazine.com
+Deny from chrome.google.com
+Deny from av-comparatives.org
+Deny from home.mcafee.com
+Deny from mailshell.com
+Deny from antiphishing.club
+Deny from symantec-wss.com
+Deny from computerworld.com.au
+Deny from bitdefender.com
+Deny from businesswire.com
+Deny from oversitesentry.com
+Deny from afilias.info
+Deny from mailshell.com
+Deny from f5.com
+Deny from axur.com
+Deny from w3.org
+Deny from returnpath.com
+Deny from phishingbox.com
+Deny from kaspersky.com
+Deny from gralicwrap.com
+Deny from group-ib.com
+Deny from ieeexplore.ieee.org
+Deny from internetiDentity.com
+Deny from phish-inspector.com
+Deny from netcraft.com
+Deny from spamcop.net
+Deny from stopforumspam.com
+Deny from tor-exit.hartvoorinternetvrijheid.nl
+Deny from veritas.com
+Deny from mozilla.com
+Deny from google.com
+Deny from stopbaDware.org
+Deny from .eDu
+Deny from crawl
+Deny from verisign-Dbms.com
+Deny from verisign.com
+Deny from phishingsite-collector
+Deny from netcraft.com
+Deny from proxy.aol.com
+Deny from net.il
+Deny from com.il
+Deny from co.il
+Deny from org.il
+Deny from googlebot.com
+Deny from mcafee
+Deny from spam
+Deny from phish
+Deny from markmonitor.com
+Deny from internetidentity.com
+Deny from reuters.com
+Deny from theguardian.com
+Deny from wombatsecurity.com
+Deny from bkav.com
+Deny from techworld.com.au
+Deny from bloomberg.com
+Deny from ubs.com
+Deny from google.com 
+Deny from google.co.uk 
+Deny from google.De 
+Deny from google.es 
+Deny from google.com.au 
+Deny from google.co.iD 
+Deny from google.co.nz 
+Deny from google.se 
+Deny from google.fi 
+Deny from google.Dk 
+Deny from google.nl 
+Deny from google.fr 
+Deny from google.ca  
+Deny from google.it 
+Deny from google.be 
+Deny from google.ch 
+Deny from google.ie 
+Deny from google.no
+Deny from google.com.br 
+Deny from google.com.ar 
+Deny from google.com.co 
+Deny from google.com.cu 
+Deny from google.com.au 
+Deny from google.com.mx 
+Deny from google.cl 
+Deny from google.at 
+Deny from google.com.ru 
+Deny from google.pl 
+Deny from google.com.tr 
+Deny from google.com.ua 
+Deny from google.gr 
+Deny from google.co.jp 
+Deny from google.cn 
+Deny from google.com.my 
+Deny from google.co.th 
+Deny from google.co.in 
+Deny from google.co.kr 
+Deny from google.ro 
+Deny from google.com.tw 
+Deny from google.co.za 
+Deny from google.pt 
+Deny from banksafeonline.org.uk
+Deny from millersmiles.co.uk
+Deny from 188.27.67.221
+Deny from 141.92.129.41
+Deny from 212.102.194.193
+Deny from 38.105.109.13
+Deny from 94.75.208.236
+Deny from 80.254.148.75
+Deny from 124.176.210.234
+Deny from 82.81.14.227
+Deny from 82.81
+Deny from 79.179.124.48
+Deny from 77.125.106.92
+Deny from 77.125
+Deny from .il
+Deny from 79.180
+Deny from 217.149.45.75
+Deny from 79.180.114.96
+Deny from 82.81.11.229
+Deny from 86.153.246.23
+Deny from 82.34.171.94
+Deny from 79.180.48.237
+Deny from 82.46.233.231
+Deny from 79.180.33.27
+Deny from 193.200.150.26
+Deny from 124.181.27.144
+Deny from 79.76.188.117
+Deny from 82.0.187.66
+Deny from 217.42.58.163
+Deny from 82.34.113.133
+Deny from 81.154.94.149
+Deny from 90.195.96.231
+Deny from 77.98.114.162
+Deny from 88.106.189.47
+Deny from 76.5.13.62
+Deny from 84.92.109.3
+Deny from 217.42.58.163
+Deny from 12.34.146.126
+Deny from 125.18.56.109
+Deny from 125.16.133.35
+Deny from reD.bezeqint.net
+Deny from 217.42.58.163
+Deny from 79.180.48.237
+Deny from 82.47.63.164
+Deny from 82.33.151.120
+Deny from 82.36.115.38
+Deny from 172.202.141.106
+Deny from 77.98.251.100
+Deny from 128.232.110.18
+Deny from 130.191.107.117
+Deny from 130.76.32.16
+Deny from 131.251.0.53
+Deny from 137.110.222.77
+Deny from 138.253.103.20
+Deny from 143.127.3.10
+Deny from 148.168.40.4
+Deny from 163.221.52.175
+Deny from 172.190.239.53
+Deny from 193.5.216.100
+Deny from 194.203.250.250
+Deny from 194.72.238.67
+Deny from 195.214.79.22
+Deny from 195.93.21.105
+Deny from 195.93.21.129
+Deny from 195.93.21.136
+Deny from 195.93.21.70
+Deny from 202.4.237.25
+Deny from 202.73.163.19
+Deny from 202.73.163.20
+Deny from 202.75.200.7
+Deny from 202.75.200.9
+Deny from 209.147.
+Deny from 209.147.114.202
+Deny from 209.147.127.216
+Deny from 209.147.127.218
+Deny from 209.147.127.219
+Deny from 209.147.127.222
+Deny from 209.59.47.248
+Deny from 209.59.55.7
+Deny from 209.59.56.166
+Deny from 211.72.233.10
+Deny from 216.168.239.87
+Deny from 216.17.247.100
+Deny from 63.100.163.218
+Deny from 63.76.155.166
+Deny from 64.127.
+Deny from 64.127.103.136
+Deny from 66.205.64.22
+Deny from 64.127.103.138
+Deny from 64.127.98.128
+Deny from 64.127.98.50
+Deny from 64.27.13.93
+Deny from 64.34.162.150
+Deny from 65.110.
+Deny from 65.110.179.164
+Deny from 65.110.181.217
+Deny from 65.110.181.78
+Deny from 65.110.182.139
+Deny from 65.110.182.195
+Deny from 65.110.182.56
+Deny from 65.199.34.69
+Deny from 66.135.
+Deny from 66.135.213.75
+Deny from 66.135.40.79
+Deny from 66.139.77.201
+Deny from 66.148.91.86
+Deny from 66.16.
+Deny from 66.16.13.10
+Deny from 66.170.132.12
+Deny from 66.179.
+Deny from 98.247.136.154
+Deny from 178.25.218.88
+Deny from 98.247.136.154
+Deny from 63.229.4.212
+Deny from 66.135.207.155
+Deny from 64.122.169.98
+Deny from 54.217.8.129
+Deny from 38.100.21.113
+Deny from 96.47.226.21
+Deny from 54.197.81.106
+Deny from 68.168.131.216
+Deny from 65.17.253.220
+Deny from 78.151.209.28
+Deny from 66.135.207.155
+Deny from 207.102.138.158
+Deny from 209.139.197.125
+Deny from 66.77.136.153
+Deny from 66.77.136.123
+Deny from 72.64.146.136
+Deny from 124.178.234.95
+Deny from 67.15.182.35 
+Deny from 66.179.210.152
+Deny from 66.179.210.153
+Deny from 66.179.210.169
+Deny from 66.179.210.181
+Deny from 66.179.210.253
+Deny from 66.179.22.39
+Deny from 66.180.82.88
+Deny from 66.194.6.132
+Deny from 66.194.6.136
+Deny from 66.227.46.235
+Deny from 66.249.66.136
+Deny from 66.31.67.249
+Deny from 66.36.231.203
+Deny from 66.77.136.123
+Deny from 68.111.223.249
+Deny from 69.26.94.123
+Deny from 71.105.129.43
+Deny from 71.6.196.245
+Deny from 72.128.124.10
+Deny from 72.13.36.7
+Deny from 72.14.163.84
+Deny from 72.3.137.83
+Deny from 74.53.202.82
+Deny from 75.3.251.62
+Deny from 79.180.33.27
+Deny from 80.176.191.254
+Deny from 80.178.
+Deny from google.com
+Deny from Google Chrome
+Deny from Chrome
+Deny from Kaspersky
+Deny from Avira
+Deny from yahoo.com
+Deny from search.com
+Deny from bing.com
+Deny from PayPal
+Deny from .co.uk
+Deny from .gov.uk
+Deny from bezeqint.net
+Deny from barak-online.net
+Deny from internetidentity.com
+Deny from phish-inspector.com
+Deny from netcraft.com
+Deny from spamcop.net
+Deny from veritas.com
+Deny from .edu
+Deny from crawl
+Deny from verisign-dbms.com
+Deny from verisign.com
+Deny from phishingsite-collector
+Deny from netcraft.com
+Deny from net.il
+Deny from com.il
+Deny from co.il
+Deny from org.il
+Deny from googlebot.com
+Deny from mcafee
+Deny from spam
+Deny from anti-hacker-alliance.com
+Deny from phish
+Deny from 80.178.164.165
+Deny from 80.178.233.97
+Deny from 80.6.93.148
+Deny from 81.152.0.194
+Deny from 81.153.73.112
+Deny from 81.173.119.129
+Deny from 81.179.50.161
+Deny from 83.252.109.165
+Deny from 84.103.175.127
+Deny from 84.136.255.210
+Deny from 84.65.49.1
+Deny from 86.131.47.254
+Deny from 86.133.166.100
+Deny from 87.69.
+Deny from 88.110.29.46
+Deny from 89.104.53.113
+Deny from 89.104.63.167
+Deny from 89.241.28.199
+Deny from 89.241.7.79
+Deny from 89.243.23.145
+Deny from internetiDentity.com
+Deny from net.il
+Deny from castlecops.com
+Deny from .eDu
+Deny from 192.117.178.10
+Deny from 199.103.32.16
+Deny from 216.138.114.147
+Deny from 24.53.120.157
+Deny from 64.251.14.50
+Deny from 69.128.12.34
+Deny from barak-online.net
+Deny from netcraft.com
+Deny from proxy.aol.com
+Deny from spamcop.net
+Deny from veritas.com
+Deny from 209.59.48.136
+Deny from 217.54.65.198
+Deny from 62.139.252.195
+Deny from 194.82.51.28
+Deny from 81.154.124.52
+Deny from 86.128.59.31
+Deny from 196.218.119.171
+Deny from 66.16.13.45
+Deny from 124.180.183.238
+Deny from 66.93.229.2
+Deny from 64.114.199.38
+Deny from 207.210.65.98
+Deny from 61.17.46.248
+Deny from 217.156.83.1
+Deny from 202.53.95.130
+Deny from 216.203.40.121
+Deny from 59.115.163.42
+Deny from 134.58.253.57
+Deny from 65.110.180.66
+Deny from 65.110.182.34
+Deny from 65.110.185.48
+Deny from 65.222.176.122
+Deny from 137.108.145.10
+Deny from 87.70.7.125
+Deny from 87.70.16.150
+Deny from 89.241.65.3
+Deny from 130.94.134.166
+Deny from 81.173.119.129
+Deny from 74.53.202.82
+Deny from 208.80.193.48
+Deny from 65.110.182.7
+Deny from 65.110.184.164
+Deny from 65.110.180.210
+Deny from 69.146.20.216
+Deny from 206.208.58.51
+Deny from 66.16.13.45
+Deny from 64.236.208.28
+Deny from 128.232.110.18
+Deny from 66.93.229.2
+Deny from 66.249.71.179
+Deny from 124.176.210.234
+Deny from 125.18.56.109
+Deny from 128.232.110.18
+Deny from 137.108.145.10
+Deny from 137.110.222.77
+Deny from 85.250.
+Deny from 93.173.
+Deny from 89.139.
+Deny from 109.186.
+Deny from 46.116.
+Deny from 65.110.180.12
+Deny from 65.110.183.240
+Deny from 64.125.148.253
+Deny from 64.125.148.251
+Deny from 64.125.148.
+Deny from 64.125.
+Deny from 93.172.230.64
+Deny from 79.178.4.37
+Deny from 93.172.236.
+Deny from 109.66.51.
+Deny from 138.26.64.54
+Deny from 202.73.
+Deny from 202.75.
+Deny from 209.147.
+Deny from 209.59.
+Deny from 64.127.
+Deny from 65.110.
+Deny from 66.135.
+Deny from 66.16.
+Deny from 66.179.
+Deny from 66.194.6.
+Deny from 80.178.
+Deny from 79.182.
+Deny from 87.69.
+Deny from 87.70.
+Deny from 74.125.230.162
+Deny from 63.245.209.106
+Deny from 66.150.14.186
+Deny from 68.185.171.226
+Deny from 46.166.186.194
+Deny from 62.212.89.117
+Deny from 96.44.189.101
+Deny from 200.55.243.215
+Deny from 209.235.254.107
+Deny from 185.17.184.228
+Deny from 78.146.122.55
+Deny from 96.44.189.101
+Deny from 65.17.253.220
+Deny from 96.44.189.101
+Deny from  41.137.82.128
+Deny from 95.130.9.89
+Deny from 104.224.10.51
+Deny from 45.59.157.79
+Deny from 94.75.208.236
+Deny from 77.247.181.162
+Deny from 65.52.100.214
+Deny from 209.203.193. 
+Deny from 209.203.194. 
+Deny from 209.203.195. 
+Deny from 209.203.196. 
+Deny from 209.203.197. 
+Deny from 209.203.198. 
+Deny from 209.203.199. 
+Deny from 209.203.200. 
+Deny from 209.203.201. 
+Deny from 209.203.202. 
+Deny from 209.203.203. 
+Deny from 209.203.204. 
+Deny from 209.203.205. 
+Deny from 209.203.206. 
+Deny from 209.203.207
+Deny from 206.201.224.0/20
+Deny from 206.201.240.0/32
+Deny from 202.75.200.19
+Deny from 207.219.7.136
+Deny from 90.146.19.23 
+Deny from 67.212.82.191
+Deny from 193.200.0.0/16
+Deny from 216.131.0.0/16 
+Deny from 66.78.105.2
+Deny from 46.116.58.1/32
+Deny from 46.116.58.2/31
+Deny from 46.116.58.4/30
+Deny from 46.116.58.8/29
+Deny from 46.116.58.16/28
+Deny from 46.116.58.32/27
+Deny from 46.116.58.64/26
+Deny from 46.116.58.128/25
+Deny from 2.52.0.0/14
+Deny from 19.203.239.24/29
+Deny from 31.25.112.0/21
+Deny from 31.44.128.0/20
+Deny from 31.148.170.0/23
+Deny from 31.154.0.0/16
+Deny from 31.168.0.0/16
+Deny from 31.201.34.0/24
+Deny from 31.201.105.0/24
+Deny from 31.201.172.0/24
+Deny from 31.210.176.0/20
+Deny from 46.19.80.0/21
+Deny from 46.31.96.0/21
+Deny from 46.36.193.129/32
+Deny from 46.36.193.130/31
+Deny from 46.36.193.132/30
+Deny from 46.36.193.136/29
+Deny from 46.36.193.144/28
+Deny from 46.36.193.160/31
+Deny from 46.116.0.0/15
+Deny from 46.120.0.0/15
+Deny from 46.136.41.0/24
+Deny from 46.136.116.0/24
+Deny from 46.136.244.0/24
+Deny from 46.183.88.0/21
+Deny from 46.210.0.0/16
+Deny from 46.228.144.0/20
+Deny from 62.0.0.0/16
+Deny from 62.56.252.0/22
+Deny from 62.90.0.0/17
+Deny from 62.90.128.0/18
+Deny from 62.90.192.0/19
+Deny from 62.90.224.0/20
+Deny from 62.90.240.0/21
+Deny from 62.90.248.0/22
+Deny from 62.90.253.0/24
+Deny from 62.90.254.0/23
+Deny from 62.122.224.0/21
+Deny from 62.128.32.0/19
+Deny from 62.184.18.64/27
+Deny from 62.184.165.32/29
+Deny from 62.200.224.0/24
+Deny from 62.200.232.0/24
+Deny from 62.200.234.0/25
+Deny from 62.200.234.128/27
+Deny from 62.200.234.192/27
+Deny from 62.200.235.0/26
+Deny from 62.200.235.64/28
+Deny from 62.200.235.104/29
+Deny from 62.200.235.160/27
+Deny from 62.200.235.192/26
+Deny from 62.209.40.128/27
+Deny from 62.219.0.0/16
+Deny from 63.87.229.240/29
+Deny from 63.240.17.40/29
+Deny from 63.240.75.32/28
+Deny from 63.240.88.168/29
+Deny from 63.240.91.128/27
+Deny from 63.251.135.224/27
+Deny from 64.14.83.128/28
+Deny from 64.14.181.128/29
+Deny from 64.14.181.224/28
+Deny from 64.14.183.0/25
+Deny from 64.28.80.96/27
+Deny from 64.28.88.112/28
+Deny from 64.35.2.152/29
+Deny from 64.35.51.192/27
+Deny from 64.35.56.0/24
+Deny from 64.37.108.96/27
+Deny from 64.39.4.224/29
+Deny from 64.39.9.48/28
+Deny from 64.39.16.72/29
+Deny from 64.39.42.96/28
+Deny from 64.39.49.192/26
+Deny from 64.49.209.152/29
+Deny from 64.64.6.75/32
+Deny from 64.64.6.76/31
+Deny from 64.64.6.78/32
+Deny from 64.64.8.201/32
+Deny from 64.64.8.202/31
+Deny from 64.64.8.204/32
+Deny from 64.77.13.48/28
+Deny from 64.94.164.104/29
+Deny from 64.106.231.140/30
+Deny from 64.106.231.144/30
+Deny from 64.106.231.148/31
+Deny from 64.124.150.64/26
+Deny from 64.192.134.192/26
+Deny from 64.210.196.192/29
+Deny from 65.61.174.120/29
+Deny from 66.35.204.128/28
+Deny from 66.35.204.176/28
+Deny from 193.35.132.1
+Deny from 66.165.107.32/27
+Deny from 66.201.77.96/27
+Deny from 66.216.71.104/29
+Deny from 67.15.144.96/27
+Deny from 67.15.159.192/27
+Deny from 67.15.161.192/26
+Deny from 67.15.214.224/28
+Deny from 67.15.242.192/27
+Deny from 67.15.247.160/27
+Deny from 67.15.251.32/27
+Deny from 67.59.141.0/27
+Deny from 67.59.185.128/28
+Deny from 67.59.189.208/29
+Deny from 67.192.32.240/29
+Deny from 67.192.38.240/29
+Deny from 67.192.40.168/29
+Deny from 67.192.41.208/28
+Deny from 67.192.72.80/29
+Deny from 67.192.89.64/27
+Deny from 67.192.97.16/29
+Deny from 67.192.97.240/28
+Deny from 67.192.104.88/29
+Deny from 67.192.114.224/29
+Deny from 67.192.131.56/29
+Deny from 67.192.153.168/29
+Deny from 67.192.157.96/29
+Deny from 67.192.157.192/29
+Deny from 67.192.171.104/29
+Deny from 67.215.8.176/29
+Deny from 67.215.15.232/29
+Deny from 69.13.33.210/31
+Deny from 69.13.33.212/30
+Deny from 69.13.33.216/30
+Deny from 69.13.33.220/31
+Deny from 69.13.33.222/32
+Deny from 69.13.35.2/31
+Deny from 69.13.35.4/30
+Deny from 69.13.35.8/30
+Deny from 69.13.35.12/31
+Deny from 69.13.35.14/32
+Deny from 69.20.29.16/29
+Deny from 69.20.31.80/29
+Deny from 69.20.40.144/29
+Deny from 69.20.55.192/29
+Deny from 69.20.103.168/29
+Deny from 69.56.1.128/29
+Deny from 69.56.58.224/29
+Deny from 69.61.14.216/29
+Deny from 69.61.18.136/29
+Deny from 69.61.20.48/29
+Deny from 69.61.20.248/29
+Deny from 69.61.21.32/29
+Deny from 69.61.40.224/27
+Deny from 69.61.41.64/26
+Deny from 69.61.47.24/29
+Deny from 69.61.47.40/29
+Deny from 69.61.52.240/29
+Deny from 69.61.96.184/29
+Deny from 69.195.212.0/22
+Deny from 69.195.232.0/22
+Deny from 70.34.208.32/29
+Deny from 70.34.219.96/27
+Deny from 70.34.249.152/29
+Deny from 70.34.250.64/29
+Deny from 72.3.143.192/29
+Deny from 72.4.116.32/29
+Deny from 72.4.117.240/28
+Deny from 72.10.169.96/29
+Deny from 72.32.4.152/29
+Deny from 72.32.14.96/28
+Deny from 72.32.14.112/29
+Deny from 72.32.19.32/27
+Deny from 72.32.23.240/28
+Deny from 72.32.44.0/28
+Deny from 72.32.46.128/25
+Deny from 72.32.47.24/29
+Deny from 72.32.52.160/29
+Deny from 72.32.53.160/29
+Deny from 72.32.161.192/29
+Deny from 72.32.174.72/29
+Deny from 72.32.178.16/29
+Deny from 72.32.201.184/29
+Deny from 72.32.205.72/29
+Deny from 72.32.207.56/29
+Deny from 72.32.216.40/29
+Deny from 74.205.5.56/29
+Deny from 74.205.7.96/29
+Deny from 74.205.7.192/29
+Deny from 74.205.10.168/29
+Deny from 74.205.13.96/29
+Deny from 74.205.16.96/29
+Deny from 74.205.23.136/29
+Deny from 74.205.28.104/29
+Deny from 74.205.29.96/29
+Deny from 74.205.70.80/28
+Deny from 74.205.70.192/28
+Deny from 74.205.80.112/29
+Deny from 74.205.83.96/29
+Deny from 74.205.100.48/29
+Deny from 74.205.104.136/29
+Deny from 74.217.222.0/24
+Deny from 75.98.95.128/27
+Deny from 76.12.55.168/29
+Deny from 76.12.58.200/29
+Deny from 76.12.180.208/29
+Deny from 77.67.52.160/27
+Deny from 77.67.52.224/27
+Deny from 77.67.61.144/28
+Deny from 77.67.63.56/29
+Deny from 77.124.0.0/14
+Deny from 78.24.205.80/28
+Deny from 78.140.171.192/27
+Deny from 79.176.0.0/13
+Deny from 80.69.2.100/30
+Deny from 80.70.128.0/20
+Deny from 80.74.96.0/19
+Deny from 80.93.10.112/28
+Deny from 80.93.10.240/29
+Deny from 80.178.0.0/16
+Deny from 80.179.0.0/18
+Deny from 80.179.64.0/20
+Deny from 80.179.80.0/21
+Deny from 80.179.88.0/22
+Deny from 80.179.92.0/23
+Deny from 80.179.94.0/24
+Deny from 80.179.95.0/28
+Deny from 80.179.95.24/29
+Deny from 80.179.95.48/28
+Deny from 80.179.95.64/26
+Deny from 80.179.95.128/25
+Deny from 80.179.96.0/19
+Deny from 80.179.128.0/19
+Deny from 80.179.160.0/22
+Deny from 80.179.164.0/27
+Deny from 80.179.164.56/29
+Deny from 80.179.164.64/26
+Deny from 80.179.164.128/28
+Deny from 80.179.164.160/27
+Deny from 80.179.164.208/28
+Deny from 80.179.164.224/27
+Deny from 80.179.165.0/24
+Deny from 80.179.166.0/23
+Deny from 80.179.168.0/24
+Deny from 80.179.169.16/29
+Deny from 80.179.169.32/27
+Deny from 80.179.169.104/29
+Deny from 80.179.169.112/28
+Deny from 80.179.169.192/27
+Deny from 80.179.169.240/28
+Deny from 80.179.170.0/23
+Deny from 80.179.172.0/22
+Deny from 80.179.176.32/27
+Deny from 80.179.176.64/28
+Deny from 80.179.176.80/29
+Deny from 80.179.176.96/28
+Deny from 80.179.176.128/25
+Deny from 80.179.177.0/24
+Deny from 80.179.178.0/23
+Deny from 80.179.180.0/22
+Deny from 80.179.184.0/22
+Deny from 80.179.188.0/24
+Deny from 80.179.190.0/23
+Deny from 80.179.192.0/19
+Deny from 80.179.224.0/21
+Deny from 80.179.232.0/22
+Deny from 80.179.237.0/24
+Deny from 80.179.238.0/23
+Deny from 80.179.240.0/23
+Deny from 80.179.242.0/24
+Deny from 80.179.244.0/22
+Deny from 80.179.248.0/21
+Deny from 80.230.0.0/16
+Deny from 80.244.160.0/20
+Deny from 80.246.128.0/20
+Deny from 80.250.144.0/20
+Deny from 80.255.60.232/29
+Deny from 81.5.0.0/18
+Deny from 81.22.245.96/27
+Deny from 81.95.145.136/29
+Deny from 81.95.145.144/29
+Deny from 81.95.152.144/29
+Deny from 81.95.155.48/29
+Deny from 81.95.156.216/29
+Deny from 81.95.158.168/29
+Deny from 81.95.158.176/29
+Deny from 81.199.116.0/23
+Deny from 81.199.120.0/22
+Deny from 81.199.250.0/23
+Deny from 81.199.252.0/22
+Deny from 81.218.0.0/16
+Deny from 82.80.0.0/17
+Deny from 82.80.128.0/18
+Deny from 82.80.192.0/19
+Deny from 82.80.224.0/20
+Deny from 82.80.240.0/24
+Deny from 82.80.241.0/25
+Deny from 82.80.241.128/27
+Deny from 82.80.241.160/28
+Deny from 82.80.241.176/29
+Deny from 82.80.241.192/26
+Deny from 82.80.242.0/23
+Deny from 82.80.244.0/22
+Deny from 82.80.248.0/21
+Deny from 82.81.0.0/16
+Deny from 82.102.128.0/18
+Deny from 82.166.0.0/16
+Deny from 83.130.0.0/16
+Deny from 83.229.12.128/29
+Deny from 83.229.13.160/29
+Deny from 83.229.32.168/29
+Deny from 84.19.171.176/28
+Deny from 84.19.173.192/28
+Deny from 84.94.0.0/15
+Deny from 84.108.0.0/14
+Deny from 84.228.0.0/15
+Deny from 85.25.106.32/27
+Deny from 85.64.0.0/15
+Deny from 85.130.128.0/17
+Deny from 85.159.160.0/21
+Deny from 85.233.206.128/25
+Deny from 85.250.0.0/16
+Deny from 87.68.0.0/14
+Deny from 88.221.152.0/21
+Deny from 88.221.219.0/24
+Deny from 89.19.234.160/27
+Deny from 89.138.0.0/15
+Deny from 89.187.115.88/30
+Deny from 89.191.219.176/28
+Deny from 89.202.108.224/28
+Deny from 89.221.42.208/28
+Deny from 91.90.128.0/20
+Deny from 91.135.96.0/20
+Deny from 91.143.224.0/20
+Deny from 91.193.4.0/22
+Deny from 91.193.48.0/22
+Deny from 91.194.4.0/23
+Deny from 91.194.114.0/23
+Deny from 91.195.162.0/23
+Deny from 91.197.60.0/22
+Deny from 91.197.100.0/22
+Deny from 91.198.5.0/24
+Deny from 91.198.70.0/24
+Deny from 91.198.129.0/24
+Deny from 91.198.205.0/24
+Deny from 91.198.254.0/24
+Deny from 91.199.29.0/24
+Deny from 91.199.53.0/24
+Deny from 91.199.69.0/24
+Deny from 91.199.94.0/24
+Deny from 91.199.99.0/24
+Deny from 91.199.100.0/24
+Deny from 91.199.119.0/24
+Deny from 91.200.144.0/22
+Deny from 91.202.168.0/22
+Deny from 91.205.152.0/22
+Deny from 91.206.170.0/23
+Deny from 91.207.34.0/23
+Deny from 91.207.90.0/23
+Deny from 91.207.206.0/23
+Deny from 91.207.240.0/23
+Deny from 91.208.86.0/24
+Deny from 91.208.118.0/24
+Deny from 91.208.129.0/24
+Deny from 91.208.139.0/24
+Deny from 91.208.140.0/24
+Deny from 91.208.147.0/24
+Deny from 91.208.218.0/24
+Deny from 91.209.113.0/24
+Deny from 91.209.182.0/24
+Deny from 91.212.76.0/24
+Deny from 91.212.114.0/24
+Deny from 91.212.189.0/24
+Deny from 91.213.176.0/24
+Deny from 91.214.100.0/22
+Deny from 91.216.31.0/24
+Deny from 91.216.222.0/24
+Deny from 91.216.252.0/24
+Deny from 91.217.219.0/24
+Deny from 91.220.9.0/24
+Deny from 91.220.22.0/24
+Deny from 91.220.193.0/24
+Deny from 91.223.11.0/24
+Deny from 91.223.54.0/24
+Deny from 91.223.106.0/24
+Deny from 91.226.245.0/24
+Deny from 91.227.70.0/23
+Deny from 91.227.164.0/23
+Deny from 92.61.224.0/20
+Deny from 92.120.118.0/23
+Deny from 92.240.0.0/19
+Deny from 93.94.40.0/21
+Deny from 93.157.80.0/21
+Deny from 93.172.0.0/15
+Deny from 93.175.32.0/19
+Deny from 94.31.7.48/28
+Deny from 94.127.73.0/24
+Deny from 94.159.128.0/17
+Deny from 94.188.128.0/17
+Deny from 94.230.80.0/20
+Deny from 95.35.0.0/16
+Deny from 95.86.64.0/18
+Deny from 95.129.32.0/23
+Deny from 95.129.34.64/26
+Deny from 95.129.34.128/25
+Deny from 95.129.35.0/24
+Deny from 95.142.22.0/23
+Deny from 95.142.25.0/24
+Deny from 95.142.26.0/23
+Deny from 95.142.28.0/23
+Deny from 95.142.30.0/24
+Deny from 95.175.32.0/19
+Deny from 98.129.21.40/29
+Deny from 98.129.36.128/29
+Deny from 98.129.42.192/29
+Deny from 98.129.59.216/29
+Deny from 98.129.64.192/29
+Deny from 98.129.101.32/29
+Deny from 98.129.101.152/29
+Deny from 98.129.155.160/29
+Deny from 98.129.235.40/29
+Deny from 109.64.0.0/14
+Deny from 109.73.160.0/23
+Deny from 109.95.128.0/21
+Deny from 109.160.128.0/17
+Deny from 109.186.0.0/16
+Deny from 109.226.0.0/18
+Deny from 109.234.16.0/21
+Deny from 109.253.0.0/16
+Deny from 117.121.245.0/24
+Deny from 128.139.0.0/16
+Deny from 132.64.0.0/13
+Deny from 132.72.0.0/14
+Deny from 132.76.0.0/15
+Deny from 132.78.0.0/16
+Deny from 138.134.0.0/16
+Deny from 139.92.51.0/24
+Deny from 139.92.88.0/23
+Deny from 139.92.91.0/24
+Deny from 139.92.92.0/24
+Deny from 139.92.98.0/24
+Deny from 139.92.182.0/23
+Deny from 139.92.184.0/23
+Deny from 139.92.206.0/23
+Deny from 139.92.208.0/24
+Deny from 139.92.251.0/24
+Deny from 139.92.252.0/23
+Deny from 139.92.254.0/24
+Deny from 139.181.116.0/22
+Deny from 139.181.156.0/22
+Deny from 141.226.0.0/16
+Deny from 147.161.0.0/16
+Deny from 147.233.0.0/16
+Deny from 147.234.0.0/15
+Deny from 147.236.0.0/15
+Deny from 149.49.0.0/16
+Deny from 167.216.132.0/23
+Deny from 167.216.134.0/24
+Deny from 167.216.136.0/22
+Deny from 167.216.142.16/28
+Deny from 167.216.142.72/29
+Deny from 167.216.142.80/28
+Deny from 167.216.142.96/27
+Deny from 167.216.142.192/26
+Deny from 167.216.146.160/27
+Deny from 167.216.146.192/26
+Deny from 167.216.147.64/26
+Deny from 167.216.147.128/25
+Deny from 167.216.148.0/22
+Deny from 167.216.152.0/21
+Deny from 167.216.160.32/27
+Deny from 167.216.160.64/26
+Deny from 167.216.160.128/25
+Deny from 167.216.161.0/24
+Deny from 167.216.162.0/23
+Deny from 167.216.164.0/22
+Deny from 167.216.168.0/21
+Deny from 167.216.176.0/20
+Deny from 167.216.192.0/24
+Deny from 167.216.193.0/25
+Deny from 167.216.193.144/28
+Deny from 167.216.193.160/27
+Deny from 167.216.196.0/25
+Deny from 167.216.196.160/27
+Deny from 167.216.196.192/26
+Deny from 167.216.197.0/24
+Deny from 167.216.198.0/23
+Deny from 167.216.200.32/27
+Deny from 167.216.200.64/26
+Deny from 167.216.200.128/26
+Deny from 167.216.200.200/29
+Deny from 167.216.200.208/28
+Deny from 167.216.200.224/27
+Deny from 167.216.201.0/24
+Deny from 167.216.202.0/24
+Deny from 167.216.203.64/27
+Deny from 167.216.203.112/28
+Deny from 167.216.203.128/25
+Deny from 167.216.204.0/24
+Deny from 167.216.205.0/27
+Deny from 167.216.205.64/27
+Deny from 167.216.205.96/28
+Deny from 167.216.205.128/25
+Deny from 167.216.206.0/24
+Deny from 167.216.207.0/28
+Deny from 167.216.207.32/27
+Deny from 167.216.207.64/26
+Deny from 167.216.207.128/25
+Deny from 167.216.208.0/24
+Deny from 167.216.209.16/28
+Deny from 167.216.209.32/27
+Deny from 167.216.209.128/25
+Deny from 167.216.210.0/23
+Deny from 167.216.212.0/22
+Deny from 167.216.216.0/21
+Deny from 167.216.224.16/28
+Deny from 167.216.224.32/27
+Deny from 167.216.224.64/26
+Deny from 167.216.224.128/25
+Deny from 167.216.225.0/24
+Deny from 167.216.226.0/23
+Deny from 167.216.228.0/22
+Deny from 167.216.232.0/24
+Deny from 167.216.234.0/23
+Deny from 167.216.236.0/22
+Deny from 167.216.240.0/22
+Deny from 167.216.244.0/23
+Deny from 167.216.246.0/24
+Deny from 167.216.247.0/25
+Deny from 167.216.247.128/27
+Deny from 167.216.247.192/26
+Deny from 167.216.248.0/23
+Deny from 167.216.250.0/24
+Deny from 167.216.251.0/25
+Deny from 167.216.251.128/26
+Deny from 167.216.251.192/28
+Deny from 167.216.251.208/29
+Deny from 167.216.251.224/29
+Deny from 167.216.252.64/26
+Deny from 167.216.252.128/25
+Deny from 167.216.253.0/24
+Deny from 167.216.254.0/23
+Deny from 173.203.132.232/29
+Deny from 173.203.134.16/29
+Deny from 173.203.138.224/29
+Deny from 173.203.151.72/29
+Deny from 173.203.151.248/29
+Deny from 173.203.155.136/29
+Deny from 173.203.177.120/29
+Deny from 173.253.113.56/29
+Deny from 173.255.4.240/29
+Deny from 174.143.13.56/29
+Deny from 174.143.15.232/29
+Deny from 174.143.38.240/28
+Deny from 174.143.42.248/29
+Deny from 174.143.43.32/29
+Deny from 174.143.78.224/29
+Deny from 174.143.85.216/29
+Deny from 174.143.87.152/29
+Deny from 174.143.95.224/29
+Deny from 174.143.104.24/29
+Deny from 174.143.109.136/29
+Deny from 174.143.116.0/29
+Deny from 174.143.164.48/29
+Deny from 174.143.167.224/29
+Deny from 174.143.217.96/28
+Deny from 176.12.128.0/17
+Deny from 176.13.0.0/16
+Deny from 178.162.148.192/26
+Deny from 178.249.104.0/21
+Deny from 178.255.11.0/24
+Deny from 184.106.10.24/29
+Deny from 184.106.16.66/31
+Deny from 188.64.96.0/21
+Deny from 188.64.200.0/21
+Deny from 188.120.128.0/19
+Deny from 188.138.53.160/27
+Deny from 192.86.25.0/24
+Deny from 192.86.89.0/24
+Deny from 192.114.0.0/17
+Deny from 192.114.128.0/19
+Deny from 192.114.160.0/20
+Deny from 192.114.176.0/21
+Deny from 192.114.184.0/22
+Deny from 192.114.188.0/24
+Deny from 192.114.189.0/25
+Deny from 192.114.189.128/26
+Deny from 192.114.189.192/27
+Deny from 192.114.189.228/30
+Deny from 192.114.189.232/29
+Deny from 192.114.189.240/28
+Deny from 192.114.190.0/23
+Deny from 192.114.192.0/18
+Deny from 192.115.0.0/16
+Deny from 192.116.2.0/23
+Deny from 192.116.4.0/23
+Deny from 192.116.8.0/23
+Deny from 192.116.24.0/21
+Deny from 192.116.32.0/19
+Deny from 192.116.64.0/21
+Deny from 192.116.72.0/24
+Deny from 192.116.74.0/23
+Deny from 192.116.76.0/22
+Deny from 192.116.80.0/22
+Deny from 192.116.84.0/24
+Deny from 192.116.86.0/23
+Deny from 192.116.89.0/24
+Deny from 192.116.90.0/23
+Deny from 192.116.92.0/22
+Deny from 192.116.96.0/20
+Deny from 192.116.112.0/22
+Deny from 192.116.116.0/23
+Deny from 192.116.118.0/24
+Deny from 192.116.120.0/21
+Deny from 192.116.128.0/21
+Deny from 192.116.136.0/22
+Deny from 192.116.140.0/23
+Deny from 192.116.142.0/24
+Deny from 192.116.144.0/20
+Deny from 192.116.160.0/19
+Deny from 192.116.192.0/19
+Deny from 192.116.224.0/22
+Deny from 192.116.228.0/23
+Deny from 192.116.230.0/24
+Deny from 192.116.231.0/25
+Deny from 192.116.231.128/26
+Deny from 192.116.231.192/27
+Deny from 192.116.231.224/30
+Deny from 192.116.231.232/29
+Deny from 192.116.231.240/28
+Deny from 192.116.232.0/21
+Deny from 192.116.240.0/20
+Deny from 192.117.0.0/16
+Deny from 192.118.0.0/16
+Deny from 192.132.244.0/24
+Deny from 192.133.36.0/24
+Deny from 192.160.252.0/24
+Deny from 192.189.70.0/24
+Deny from 192.206.86.0/24
+Deny from 192.206.222.0/23
+Deny from 192.206.224.0/23
+Deny from 192.206.226.0/24
+Deny from 193.16.147.0/24
+Deny from 193.16.238.0/24
+Deny from 193.17.42.0/24
+Deny from 193.17.68.0/24
+Deny from 193.17.74.0/24
+Deny from 193.22.80.0/24
+Deny from 193.27.92.0/23
+Deny from 193.28.155.0/24
+Deny from 193.30.161.0/24
+Deny from 193.33.16.0/23
+Deny from 193.33.234.0/23
+Deny from 193.34.56.0/22
+Deny from 193.36.176.0/24
+Deny from 193.37.128.0/23
+Deny from 193.37.130.0/24
+Deny from 193.39.79.0/24
+Deny from 193.41.202.0/24
+Deny from 193.41.208.0/23
+Deny from 193.43.244.0/22
+Deny from 193.46.64.0/24
+Deny from 193.47.165.0/24
+Deny from 193.47.248.0/24
+Deny from 193.104.44.0/24
+Deny from 193.104.62.0/24
+Deny from 193.104.77.0/24
+Deny from 193.104.115.0/24
+Deny from 193.104.117.0/24
+Deny from 193.104.119.0/24
+Deny from 193.104.147.0/24
+Deny from 193.105.99.0/24
+Deny from 193.105.199.0/24
+Deny from 193.106.52.0/22
+Deny from 193.106.204.0/22
+Deny from 193.108.195.0/24
+Deny from 193.108.211.0/24
+Deny from 193.109.82.0/24
+Deny from 193.110.48.0/21
+Deny from 193.138.92.0/24
+Deny from 193.142.151.0/24
+Deny from 193.169.70.0/23
+Deny from 193.169.88.0/23
+Deny from 193.169.104.0/23
+Deny from 193.169.246.0/23
+Deny from 193.178.220.0/24
+Deny from 193.186.2.0/24
+Deny from 193.200.30.0/24
+Deny from 193.201.155.128/25
+Deny from 193.218.206.0/24
+Deny from 193.218.207.128/25
+Deny from 193.222.129.0/24
+Deny from 193.238.188.0/22
+Deny from 193.238.208.0/22
+Deny from 193.239.108.0/22
+Deny from 193.243.183.128/26
+Deny from 193.254.206.0/23
+Deny from 194.1.145.0/24
+Deny from 194.8.76.0/23
+Deny from 194.8.88.0/23
+Deny from 194.29.32.0/20
+Deny from 194.50.71.0/24
+Deny from 194.50.175.0/24
+Deny from 194.54.168.0/22
+Deny from 194.56.215.0/24
+Deny from 194.88.136.0/23
+Deny from 194.90.0.0/16
+Deny from 194.110.249.0/24
+Deny from 194.116.226.0/23
+Deny from 194.116.230.0/23
+Deny from 194.117.111.16/29
+Deny from 194.117.112.244/30
+Deny from 194.117.119.79/32
+Deny from 194.117.120.116/32
+Deny from 194.117.123.21/32
+Deny from 194.117.124.193/32
+Deny from 194.150.218.0/23
+Deny from 194.153.101.0/24
+Deny from 194.161.149.0/24
+Deny from 194.177.16.0/22
+Deny from 194.187.84.0/22
+Deny from 194.194.58.0/24
+Deny from 194.194.246.0/23
+Deny from 194.194.250.0/23
+Deny from 194.213.4.0/24
+Deny from 194.213.108.0/23
+Deny from 194.242.24.0/23
+Deny from 194.247.166.0/23
+Deny from 194.253.86.0/23
+Deny from 195.10.194.0/24
+Deny from 195.10.220.0/24
+Deny from 195.10.222.0/24
+Deny from 195.13.68.160/28
+Deny from 195.18.8.0/22
+Deny from 195.22.148.0/23
+Deny from 195.28.166.0/23
+Deny from 195.28.180.0/23
+Deny from 195.60.176.0/23
+Deny from 195.60.232.0/22
+Deny from 195.61.195.0/27
+Deny from 195.62.18.0/23
+Deny from 195.62.30.0/23
+Deny from 195.66.118.0/24
+Deny from 195.69.236.0/22
+Deny from 195.72.116.0/22
+Deny from 195.72.120.0/21
+Deny from 195.79.65.128/26
+Deny from 195.79.200.0/25
+Deny from 195.82.128.0/23
+Deny from 195.88.234.0/23
+Deny from 195.90.67.96/28
+Deny from 195.93.234.0/23
+Deny from 195.95.183.0/24
+Deny from 195.110.40.0/23
+Deny from 195.112.181.61/32
+Deny from 195.112.181.254/32
+Deny from 195.112.182.131/32
+Deny from 195.118.21.0/24
+Deny from 195.128.145.0/24
+Deny from 195.128.176.0/23
+Deny from 195.137.164.0/24
+Deny from 195.160.240.0/22
+Deny from 195.162.66.0/23
+Deny from 195.177.108.0/22
+Deny from 195.182.33.0/24
+Deny from 195.184.139.192/26
+Deny from 195.189.140.0/23
+Deny from 195.189.192.0/23
+Deny from 195.190.19.0/24
+Deny from 195.190.23.0/24
+Deny from 195.191.52.0/23
+Deny from 195.200.205.0/24
+Deny from 195.211.68.0/22
+Deny from 195.212.202.0/27
+Deny from 195.212.202.40/29
+Deny from 195.212.202.192/26
+Deny from 195.213.1.176/28
+Deny from 195.213.38.0/29
+Deny from 195.213.43.160/27
+Deny from 195.213.44.0/26
+Deny from 195.213.50.112/28
+Deny from 195.213.59.160/28
+Deny from 195.213.69.0/25
+Deny from 195.213.79.64/27
+Deny from 195.213.79.244/30
+Deny from 195.213.81.0/26
+Deny from 195.213.93.16/28
+Deny from 195.213.109.0/26
+Deny from 195.213.127.40/29
+Deny from 195.213.152.128/25
+Deny from 195.213.225.0/26
+Deny from 195.213.227.0/24
+Deny from 195.213.231.0/24
+Deny from 195.216.252.0/24
+Deny from 195.225.46.0/23
+Deny from 195.234.26.0/23
+Deny from 195.234.158.0/23
+Deny from 195.242.118.0/23
+Deny from 195.244.22.0/23
+Deny from 195.250.33.0/24
+Deny from 198.5.134.224/27
+Deny from 198.5.136.72/29
+Deny from 199.34.127.184/29
+Deny from 199.191.192.0/24
+Deny from 199.203.0.0/16
+Deny from 204.10.111.136/29
+Deny from 204.11.74.80/29
+Deny from 204.11.221.32/27
+Deny from 204.11.221.64/28
+Deny from 204.12.14.200/29
+Deny from 204.12.43.176/29
+Deny from 204.12.54.120/29
+Deny from 204.12.54.184/29
+Deny from 204.12.60.176/29
+Deny from 204.12.114.224/28
+Deny from 204.12.115.208/28
+Deny from 204.12.115.224/29
+Deny from 204.12.124.64/28
+Deny from 204.15.225.192/28
+Deny from 204.52.208.0/24
+Deny from 204.176.86.224/27
+Deny from 204.176.184.48/28
+Deny from 204.176.185.0/27
+Deny from 204.232.186.32/29
+Deny from 204.232.190.216/29
+Deny from 204.232.233.96/29
+Deny from 204.232.238.32/29
+Deny from 204.232.246.80/29
+Deny from 205.138.24.24/29
+Deny from 206.41.118.110/31
+Deny from 206.41.118.112/28
+Deny from 206.41.118.128/30
+Deny from 206.41.118.132/31
+Deny from 206.49.94.0/24
+Deny from 206.73.168.192/26
+Deny from 206.82.140.0/24
+Deny from 206.182.92.0/24
+Deny from 206.182.129.192/27
+Deny from 206.188.0.96/28
+Deny from 206.214.216.190/31
+Deny from 206.214.216.192/31
+Deny from 206.214.216.246/31
+Deny from 206.214.216.248/31
+Deny from 206.214.220.87/32
+Deny from 206.214.220.88/31
+Deny from 206.214.220.90/32
+Deny from 206.214.221.92/30
+Deny from 206.214.223.222/32
+Deny from 206.221.209.184/29
+Deny from 206.221.219.208/29
+Deny from 206.221.219.224/29
+Deny from 206.221.222.48/28
+Deny from 206.222.2.64/27
+Deny from 206.222.2.192/29
+Deny from 206.222.3.128/27
+Deny from 206.222.3.216/29
+Deny from 206.222.15.160/27
+Deny from 206.222.18.64/27
+Deny from 206.222.26.24/29
+Deny from 207.97.203.144/29
+Deny from 207.97.218.248/30
+Deny from 207.97.236.168/29
+Deny from 207.97.249.0/29
+Deny from 207.117.93.0/24
+Deny from 207.117.208.0/24
+Deny from 207.166.114.144/28
+Deny from 207.209.178.0/24
+Deny from 207.209.215.0/24
+Deny from 207.232.0.0/18
+Deny from 208.45.142.224/28
+Deny from 208.86.45.64/26
+Deny from 208.112.68.232/29
+Deny from 208.112.76.0/24
+Deny from 208.175.211.216/29
+Deny from 209.10.32.224/28
+Deny from 209.18.77.48/28
+Deny from 209.18.96.160/27
+Deny from 209.18.102.128/27
+Deny from 209.28.179.0/24
+Deny from 209.28.180.0/24
+Deny from 209.28.217.0/24
+Deny from 209.28.218.0/23
+Deny from 209.51.199.192/27
+Deny from 209.51.209.128/27
+Deny from 209.61.134.208/29
+Deny from 209.61.137.16/29
+Deny from 209.88.155.0/24
+Deny from 209.88.156.0/23
+Deny from 209.88.158.0/24
+Deny from 209.88.172.0/22
+Deny from 209.88.176.0/20
+Deny from 209.88.192.0/21
+Deny from 209.93.39.0/27
+Deny from 209.93.39.32/28
+Deny from 209.93.72.0/25
+Deny from 209.167.67.64/26
+Deny from 209.170.125.200/29
+Deny from 209.207.97.240/29
+Deny from 209.222.64.64/26
+Deny from 209.222.97.0/29
+Deny from 212.25.64.0/18
+Deny from 212.29.192.0/18
+Deny from 212.48.64.0/19
+Deny from 212.63.163.108/30
+Deny from 212.63.174.13/32
+Deny from 212.63.174.98/32
+Deny from 212.63.180.72/30
+Deny from 212.68.128.0/19
+Deny from 212.76.96.0/19
+Deny from 212.116.160.0/19
+Deny from 212.117.128.0/21
+Deny from 212.117.136.0/22
+Deny from 212.117.140.0/26
+Deny from 212.117.140.64/27
+Deny from 212.117.140.112/28
+Deny from 212.117.140.128/25
+Deny from 212.117.141.0/24
+Deny from 212.117.142.0/23
+Deny from 212.117.144.0/20
+Deny from 212.143.0.0/16
+Deny from 212.150.0.0/16
+Deny from 212.167.9.0/27
+Deny from 212.179.0.0/16
+Deny from 212.199.0.0/18
+Deny from 212.199.64.0/21
+Deny from 212.199.72.0/23
+Deny from 212.199.74.0/26
+Deny from 212.199.74.128/25
+Deny from 212.199.75.0/24
+Deny from 212.199.76.0/22
+Deny from 212.199.80.0/20
+Deny from 212.199.96.0/21
+Deny from 212.199.104.0/22
+Deny from 212.199.108.0/26
+Deny from 212.199.108.64/28
+Deny from 212.199.108.80/30
+Deny from 212.199.108.88/29
+Deny from 212.199.108.96/27
+Deny from 212.199.108.128/25
+Deny from 212.199.109.116/30
+Deny from 212.199.110.0/23
+Deny from 212.199.112.0/20
+Deny from 212.199.128.0/21
+Deny from 212.199.136.0/24
+Deny from 212.199.138.0/23
+Deny from 212.199.140.0/22
+Deny from 212.199.144.0/21
+Deny from 212.199.152.0/22
+Deny from 212.199.156.0/23
+Deny from 212.199.158.0/27
+Deny from 212.199.158.48/28
+Deny from 212.199.158.96/27
+Deny from 212.199.158.144/28
+Deny from 212.199.158.160/27
+Deny from 212.199.158.192/26
+Deny from 212.199.159.0/24
+Deny from 212.199.160.0/19
+Deny from 212.199.192.0/22
+Deny from 212.199.196.0/23
+Deny from 212.199.198.16/28
+Deny from 212.199.198.32/27
+Deny from 212.199.198.64/26
+Deny from 212.199.198.128/25
+Deny from 212.199.199.0/24
+Deny from 212.199.200.0/21
+Deny from 212.199.208.0/20
+Deny from 212.199.224.0/20
+Deny from 212.199.240.0/24
+Deny from 212.199.241.0/25
+Deny from 212.199.242.0/23
+Deny from 212.199.244.0/22
+Deny from 212.199.248.0/21
+Deny from 212.235.0.0/18
+Deny from 212.235.64.0/19
+Deny from 212.235.96.0/24
+Deny from 212.235.97.0/25
+Deny from 212.235.97.128/26
+Deny from 212.235.97.192/28
+Deny from 212.235.97.224/27
+Deny from 212.235.98.0/23
+Deny from 212.235.100.0/22
+Deny from 212.235.104.0/21
+Deny from 212.235.112.0/20
+Deny from 213.8.0.0/16
+Deny from 213.31.180.160/27
+Deny from 213.31.203.0/24
+Deny from 213.31.205.120/29
+Deny from 213.31.208.0/24
+Deny from 213.57.0.0/16
+Deny from 213.151.32.0/19
+Deny from 213.173.32.0/19
+Deny from 216.35.66.64/29
+Deny from 216.35.66.120/29
+Deny from 216.38.48.26/31
+Deny from 216.38.48.28/31
+Deny from 216.38.49.34/31
+Deny from 216.38.49.36/31
+Deny from 216.38.52.151/32
+Deny from 216.38.52.152/31
+Deny from 216.38.52.154/32
+Deny from 216.38.63.214/31
+Deny from 216.38.63.216/31
+Deny from 216.52.89.144/28
+Deny from 216.52.248.112/29
+Deny from 216.72.32.0/21
+Deny from 216.72.40.0/22
+Deny from 216.72.70.0/23
+Deny from 216.72.117.0/24
+Deny from 216.74.132.224/27
+Deny from 216.94.57.0/26
+Deny from 216.131.81.128/29
+Deny from 216.131.88.168/29
+Deny from 216.131.93.136/29
+Deny from 216.201.80.72/29
+Deny from 216.201.81.192/28
+Deny from 216.234.174.54/32
+Deny from 216.246.4.216/29
+Deny from 217.22.112.0/20
+Deny from 217.65.32.0/24
+Deny from 217.65.35.0/24
+Deny from 217.65.37.0/24
+Deny from 217.65.39.0/24
+Deny from 217.65.45.0/24
+Deny from 217.65.46.0/24
+Deny from 217.68.6.224/28
+Deny from 217.77.240.65/32
+Deny from 217.77.240.182/32
+Deny from 217.77.241.75/32
+Deny from 217.77.247.164/30
+Deny from 217.132.0.0/16
+Deny from 217.194.192.0/20
+Deny from 109.145.254.15
+Deny from 193.35.132.1/32
+Deny from 193.35.132.2/31
+Deny from 193.35.132.4/30
+Deny from 193.35.132.8/29
+Deny from 193.35.132.16/28
+Deny from 193.35.132.32/27
+Deny from 193.35.132.64/26
+Deny from 193.35.132.128/25
+Deny from 64.38.3.1/32
+Deny from 64.38.3.2/31
+Deny from 64.38.3.4/30
+Deny from 64.38.3.8/29
+Deny from 64.38.3.16/28
+Deny from 64.38.3.32/27
+Deny from 64.38.3.64/26
+Deny from 64.38.3.128/25
+Deny from 87.230.55.1/32
+Deny from 87.230.55.2/31
+Deny from 87.230.55.4/30
+Deny from 87.230.55.8/29
+Deny from 87.230.55.16/28
+Deny from 87.230.55.32/27
+Deny from 87.230.55.64/26
+Deny from 87.230.55.128/25
+Deny from 198.96.128.0/24
+Deny from 198.96.129.0/24
+Deny from 198.96.130.0/23
+Deny from 198.96.132.0/22
+Deny from 198.96.136.0/22
+Deny from 198.96.130.0/24
+Deny from 198.96.131.0/24
+Deny from 198.96.132.0/24
+Deny from 198.96.133.0/24
+Deny from 198.96.134.0/24
+Deny from 198.96.135.0/24
+Deny from 198.96.136.0/24
+Deny from 198.96.137.0/24
+Deny from 198.96.138.0/24
+Deny from 198.96.139.0/24
+Deny from 198.96.140.0/24
+Deny from 154.20.6.243
+Deny from 93.172.25.144
+Deny from 46.116.0.0/16
+Deny from 66.48.18.64/26
+Deny from 90.212.128.148
+Deny from 90.210.80.163
+Deny from 88.211.68.78
+Deny from 216.104.15.130
+Deny from 150.70.172.108
+Deny from 82.132.210.78
+Deny from 86.185.84.17
+Deny from 86.132.67.204
+Deny from 86.135.146.205
+Deny from 193.109.254.20
+Deny from 86.148.129.135
+Deny from 84.45.232.75
+Deny from 194.83.83.74
+Deny from 79.69.242.73
+Deny from 86.30.204.37
+Deny from 93.186.23.80
+Deny from 90.222.14.216
+Deny from 95.150.121.125
+Deny from 86.157.86.80
+Deny from 136.8.33.70
+Deny from 64.114.212.6
+Deny from 81.156.70.206
+Deny from 86.143.65.12
+Deny from 212.69.47.202
+Deny from 46.116.169.61
+Deny from 46.116.1.1/32
+Deny from 46.116.1.2/31
+Deny from 46.116.1.4/30
+Deny from 46.116.1.8/29
+Deny from 46.116.1.16/28
+Deny from 46.116.1.32/27
+Deny from 46.116.1.64/26
+Deny from 46.116.1.128/25
+Deny from 46.116.2.0/23
+Deny from 46.116.4.0/22
+Deny from 46.116.8.0/21
+Deny from 46.116.16.0/20
+Deny from 46.116.32.0/19
+Deny from 46.116.64.0/18
+Deny from 46.116.128.0/17
+Deny from 94.175.93.110
+Deny from 68.67.52.1/32
+Deny from 68.67.52.2/31
+Deny from 68.67.52.4/30
+Deny from 68.67.52.8/29
+Deny from 68.67.52.16/28
+Deny from 68.67.52.32/27
+Deny from 68.67.52.64/26
+Deny from 68.67.52.128/25
+Deny from 85.13.200.0/21
+Deny from 85.13.208.0/20
+Deny from 85.13.224.0/19
+Deny from 216.10.192.0/21
+Deny from 216.10.200.0/22
+Deny from 216.10.204.0/23
+Deny from 216.10.206.0/24
+Deny from 216.10.207.0/25
+Deny from 216.10.207.128/26
+Deny from 216.10.207.192/27
+Deny from 216.10.207.224/28
+Deny from 216.10.207.240/29
+Deny from 216.10.207.248/30
+Deny from 216.10.207.252/31
+Deny from 216.10.207.254/32
+Deny from 66.78.96.0/19
+Deny from 203.27.226.196/30
+Deny from 12.189.21.225/30
+Deny from 76.124.19.61
+Deny from 120.146.168.75
+Deny from 150.70.172.104
+Deny from 150.70.75.33
+Deny from 208.43.170.202
+Deny from 106.187.46.104
+Deny from 196.14.133.129
+Deny from 203.27.226.193/30
+Deny from 203.27.226.193/32
+Deny from 86.133.153.118
+Deny from 24.211.96.3
+Deny from 216.38.216.220
+Deny from 208.80.194.35
+Deny from 99.48.54.3
+Deny from 118.96.42.23
+Deny from 67.78.239.100
+Deny from 64.62.203.172
+Deny from 209.85.224.84/24
+Deny from 208.80.194.28
+Deny from 216.82.243.4
+Deny from 206.171.8.173
+Deny from 64.235.144.14
+Deny from 67.78.239.117
+Deny from 84.14.214.213
+Deny from 174.129.126.104
+Deny from 89.145.108.203
+Deny from 50.97.98.130
+Deny from 112.121.59.108
+Deny from 64.125.148.255
+Deny from 143.127.2.4
+Deny from 96.44.163.75
+Deny from 209.235.254.107/24
+Deny from 209.85.144.95/24
+Deny from 209.85.144.83/24
+Deny from 62.99.77.165
+Deny from 66.150.14.181/31
+Deny from 174.122.254.42/30
+Deny from 174.122.254.42
+Deny from 69.20.70.31
+Deny from 66.150.14.182
+Deny from 208.109.21.238
+Deny from 38.127.197.91
+Deny from 209.235.254.107/24
+Deny from 124.178.234.95/32
+Deny from 50.97.98.131
+Deny from 112.121.59.108
+Deny from 203.27.226.198/24
+Deny from 209.85.224.91
+Deny from 66.150.14.184
+Deny from 209.191.87.218
+Deny from 174.122.254.42/20
+Deny from 50.97.98.131
+Deny from 220.225.70.109
+Deny from 208.109.21.238
+Deny from 209.85.224.88
+Deny from 62.149.226.208
+Deny from 74.125.64.83
+Deny from 64.90.164.110
+Deny from 173.254.216.67
+Deny from 209.85.224.91
+Deny from 66.150.14.186
+Deny from 66.150.14.185
+Deny from 184.173.241.45/24
+Deny from 184.173.241.44/24
+Deny from 66.226.5.248
+Deny from 208.118.60.20
+Deny from 64.125.148.246/30
+Deny from 64.125.148.241/30
+Deny from 66.226.5.246
+Deny from 74.125.64.89/24
+Deny from 209.85.224.85
+Deny from 115.30.40.14
+Deny from 217.149.63.65
+Deny from 66.150.14.187/30
+Deny from 66.226.5.245/30
+Deny from 208.118.60.20/30
+Deny from 203.27.226.80/30
+Deny from 203.27.226.70/20
+Deny from 194.28.172.10
+Deny from 186.29.172.121
+Deny from 217.149.63.65
+Deny from 202.53.15.132/20
+Deny from 66.150.14.187/30
+Deny from 64.125.148.249/30
+Deny from 121.74.233.172/10
+Deny from 89.145.108.203
+Deny from 209.85.224.87/30
+Deny from 209.85.224.91/30
+Deny from 209.85.224.88/28
+Deny from 89.145.108.203/5
+Deny from 89.145.108.202/30
+Deny from 209.85.224.99/30
+Deny from 84.14.214.213
+Deny from 216.82.243.4/10
+Deny from 209.120.218.194
+Deny from 174.122.254.42/32
+Deny from 209.85.224.92/30
+Deny from 209.120.218.194/30
+Deny from 89.145.108.202/30
+Deny from 209.85.224.92/30
+Deny from 216.82.243.4/30
+Deny from 209.191.87.217/30
+Deny from 207.46.199.47/30
+Deny from 124.178.234.95/30
+Deny from 174.122.254.42/20
+Deny from 99.184.78.77
+Deny from 99.184.73.55
+Deny from 66.249.67.45
+Deny from 4.225.109.243
+Deny from 5.199.130.188
+</Limit>
